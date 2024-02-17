@@ -1,7 +1,7 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const dummyNft = await ethers.getContractAt("DummyNFT", "0x60508d5337c23a913922C577b638d1A61e0AEEf7");
+  const dummyNft = await ethers.getContractAt("DummyNFT", "0xa63DB4bCEEEAf22a1Bc93AB7D52988fe9fB56b5B");
   const accounts = await ethers.getSigners();
   const account = accounts[1];
   for (const i of new Array(10).keys()) {
